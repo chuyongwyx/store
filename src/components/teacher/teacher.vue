@@ -3,12 +3,12 @@
 			<div class="layout-content">
 					<div class="layout-content-main">
 						<div class="content-top">
-							<h2>教师管理</h2>
-							<div class="operate">
+							<!-- <h2>教师管理</h2> -->
+							<!-- <div class="operate">
 								<i-button type="info" class="oper-btn">新增教师</i-button>
 								<i-button type="info"  class="oper-btn">批量导入</i-button>
 								<i-button type="info"  class="oper-btn">批量删除</i-button>
-							</div>
+							</div> -->
 
 						 </div>
 						<div class="student-info">

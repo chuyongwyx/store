@@ -2,7 +2,7 @@
     <div class="loginForm">
 		<transition name="login">
 		<div class="login" v-if="flag">
-							<h1>登录</h1>
+							<!-- <h1>登录</h1> -->
 							<div class="login-form clear-box">
 								<div class="user"><input type="text" placeholder="请输入账号"></div>
 								<!-- <div><Icon type=" alert-circled"></Icon>账号或密码有误</div> -->

@@ -3,7 +3,7 @@
 			<div class="layout-content">
 					<div class="layout-content-main">
 						<div class="content-top">
-							<h2>屏幕管理-编辑屏幕信息</h2>
+							<!-- <h2>屏幕管理-编辑屏幕信息</h2> -->
 							<div class="operate">
 								<i-button type="info" class="oper-btn" @click="handleGoback">返回</i-button>
 							</div>

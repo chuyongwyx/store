@@ -49,7 +49,25 @@
 						</div>
 					</div>
 				</div>
-				<div>
+				<div >
+					<div class="layout-content">
+					<div class="layout-content-main">
+						<div class="content-top">
+							<!-- <h2>学生管理</h2> -->
+							<Breadcrumb>
+							<BreadcrumbItem>标题1</BreadcrumbItem>
+							<BreadcrumbItem>标题2</BreadcrumbItem>
+                   		 </Breadcrumb>
+							<div class="operate">
+								<i-button type="info" class="oper-btn">新增学生</i-button>
+								<i-button type="info"  class="oper-btn">批量导入</i-button>
+								<i-button type="info"  class="oper-btn">批量删除</i-button>
+							</div>
+						 </div>
+						
+					</div>
+				</div>
+					 	
 						<router-view></router-view>
 				</div>
 			</i-col>
@@ -79,6 +97,7 @@
 					this.handleScreenList();
 					this.handleStudent();
 					this.handleTeacher();
+					console.log(this.$router)
 			},
 			mounted(){
 
@@ -161,7 +180,7 @@
     .layout-content{
 		width: 100%;
 		height: 80%;
-        min-height: 200px;
+        /* min-height: 200px; */
         margin:0 15px;
         /* overflow: hidden; */
         background: #fff;
@@ -194,5 +213,42 @@
 	.ivu-row-flex{
 			width:100%;
 			height: 100%;
+	}
+	.breadcrumb{
+		width: 100%;
+		height: 60px;
+		background:red;
+
+	}
+	.content-top {
+  /* height: 50px; */
+  background: #f5f7f9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content-top > h2 {
+  font-size: 22px;
+  line-height: 50px;
+  margin-left:2.5%;
+}
+.content-top .operate {
+  display: flex;
+  margin-right: 100px;
+}
+.content-top .operate .oper-btn {
+  margin: 0 10px;
+}
+.layout-copy {
+  text-align: center;
+  margin-top: 20px;
+  color: #9ea7b4;
+}
+	.ivu-breadcrumb{
+		width: 100%;
+		height:60px;
+		line-height: 60px;
+		padding-left: 15px
+
 	}
 </style>
