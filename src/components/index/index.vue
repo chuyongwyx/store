@@ -75,7 +75,7 @@
 				</div>
 				<div>
 					<div class="layout-content">
-						<div class="layout-content-main">
+						<div>
 							<div class="content-top">
 								<!-- 公共标题 -->
 								<div class="content-top-left">
@@ -246,14 +246,11 @@ export default {
   width: 100%;
   height: 80%;
   /* min-height: 200px; */
-  margin: 0 15px;
+  /* margin: 0 15px; */
   /* overflow: hidden; */
   background: #fff;
   border-radius: 4px;
 }
-/* .layout-content-main{
-    padding: 10px;
-    } */
 
 .layout-menu-left {
   background: #464c5b;
@@ -279,11 +276,7 @@ export default {
   width: 100%;
   height: 100%;
 }
-.breadcrumb {
-  width: 100%;
-  height: 60px;
-  background: red;
-}
+
 /* 公共标题区 */
 .content-top {
   /* height: 50px; */
@@ -291,12 +284,15 @@ export default {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border: 1px solid #979797;
+
 }
 .content-top-left {
   width: 294px;
   height: 100%;
   display: flex;
   align-items: center;
+
 }
 /* 矩形色块 */
 .rectangle {
@@ -305,7 +301,7 @@ export default {
   height: 33px;
 }
 .margin {
-  margin: 10px 19px;
+  margin: 10px 19px ;
 }
 /* 标题 */
 .titles {
@@ -331,15 +327,6 @@ export default {
 .content-top .operate .oper-btn {
   margin: 0 10px;
 }
-.layout-copy {
-  text-align: center;
-  margin-top: 20px;
-  color: #9ea7b4;
-}
-.ivu-breadcrumb {
-  width: 100%;
-  height: 60px;
-  line-height: 60px;
-  padding-left: 15px;
-}
+
+
 </style>
