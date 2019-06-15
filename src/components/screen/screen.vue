@@ -4,12 +4,12 @@
 					<div class="layout-content-main">
 						<div class="content-top">
 							<!-- <h2>屏幕管理</h2> -->
-							<div class="operate">
+							<!-- <div class="operate">
 								<i-button type="info" class="oper-btn">新增屏幕</i-button>
 								<i-button type="info"  class="oper-btn">批量导入</i-button>
 								<i-button type="info"  class="oper-btn">批量导出</i-button>
 								<i-button type="info"  class="oper-btn">批量删除</i-button>
-							</div>
+							</div> -->
 						</div>
 						<div class="screen-info">
 									<i-table border  :columns="columns7" :data="data6"></i-table>
