@@ -7,10 +7,12 @@
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
-    "build": "node build/build.js"
+    "build": "node build/build.js",
+    "serve": "vue-cli-service serve",
+    "lint": "vue-cli-service lint",
+    "proto": "pbjs -t json-module -w commonjs -o src/proto/proto.js  src/proto/*.proto"
   },
   "dependencies": {
-    "axios": "^0.18.0",
     "iview": "^3.4.2",
     "js-cookie": "^2.2.0",
     "mockjs": "^1.0.1-beta3",
@@ -20,6 +22,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
+    "axios": "^0.18.1",
     "babel-core": "^6.22.1",
     "babel-helper-vue-jsx-merge-props": "^2.0.3",
     "babel-loader": "^7.1.1",
@@ -42,6 +45,7 @@
     "postcss-import": "^11.0.0",
     "postcss-loader": "^2.0.8",
     "postcss-url": "^7.2.1",
+    "protobufjs": "^6.8.8",
     "rimraf": "^2.6.0",
     "semver": "^5.3.0",
     "shelljs": "^0.7.6",

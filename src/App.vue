@@ -5,6 +5,8 @@
 </template>
 
 <script>	
+import $root from './proto/proto.js';
+console.log($root)
 export default {
 		name:"app"
 }
